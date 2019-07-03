@@ -6268,6 +6268,12 @@ public final class Settings {
         private static final Validator WIRELESS_CHARGING_ANIMATION_VALIDATOR =
                 BOOLEAN_VALIDATOR;
 
+        /**
+        * Unlock keystore with fingerprint after reboot
+        * @hide
+        */
+        public static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
+
         /***************************
          * AICP System Settings end
          ***************************/
