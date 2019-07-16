@@ -81,6 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:letterSpacing="0.03"
+                android:textColor="?attr/wallpaperTextColor"
                 style="@style/customtextclock_big_thin" />
             <com.android.keyguard.clocks.CustomTextClockHours
                 android:id="@+id/custom_textclock_view1"
